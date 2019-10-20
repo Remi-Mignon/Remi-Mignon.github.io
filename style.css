@@ -1,0 +1,131 @@
+/* 21 cm x 29,7 cm */
+.top {
+	background: #224987;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	margin-top: -8px;
+	margin-left: -8px;
+	justify-content: center;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 5px 5px 5px gray;
+	display: block;
+} 
+.barre{
+	color: #224987
+}
+.intop{
+	/*width: 21cm;*/
+	height: 100%;
+	color: white;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	font-weight: bold;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #224987;
+    background-color: white;
+    text-decoration: none;
+}
+a{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	justify-content: center;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	background-color:#e0e0e0;
+	font-family: 'Roboto',Arial,"Segoe UI","sans-serif";
+}
+.contenu{
+	display: flex;
+	background-color:white;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 21cm;
+}
+.page{
+	height: 29,7cm;
+	width: 10cm
+	border: solid red;
+}
+.first{
+	/*height: 36px;*/
+	width: 21cm;
+	margin-top: 50px;
+	vertical-align: bottom;
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+}
+.paragraphe{
+	/*border: solid;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;*/
+	margin: 50px 100px 50px;
+}
+hr{
+  margin: 50px auto;
+  width: 75%;
+  height: 2px;
+  background-color: #224987;
+  border: none;
+}
+.material-icons.md-48 { 
+	font-size: 36px; 
+}
+.titre{
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+li{
+	list-style: none;
+	font-size: 18px;
+	margin-top: 10px;
+}
+h{
+	font-size: 24px;
+}
+#Centrer{
+	margin: -10px;
+	text-align: center;
+}
+#Centrer li{
+	margin-left: -40px;
+}
+.liste{
+	display: flex;
+	justify-content: center;
+}
+.barre{
+	width: 300px;
+	height: 30px;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: gray;
+}
+
+#myBar {
+  height: 30px;
+  background-color: #224987;
+}
