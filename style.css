@@ -1,5 +1,11 @@
 /* 21 cm x 29,7 cm */
 
+.info {
+	/*font-weight: bolder;*/
+	background-color: rgb(220, 220, 220);
+  border-radius: 10px;
+}
+
 .top {
 	background: #224987;
 	width: 100%;

@@ -46,7 +46,14 @@
 								<li>Le Verdier
 								24410 Saint Privat des Pres</li><br>
 								<li>DATE DE NAISSANCE<br>
-								29/06/2000</li><br>
+								29/06/2000 - <c id="age">21</c> ans</li><br>
+								<script>
+								  const now = new Date();
+								  const date = Date.parse('29 jun 2000 00:00:00 GMT');
+								  const diff = Math.abs(now - date );
+								  const age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); 
+								  document.getElementById("age").innerHTML = age;
+								</script>
 								<li>NATIONALITÉ<br>
 								Française</li><br>
 								<li>PERMIS DE CONDUIRE<br>
@@ -64,7 +71,7 @@
 						</div>
 						<div class="liste2">
 							<ul><br>
-								<li><h>Octobre 2021 à Actuellement</h>
+								<li><h>Octobre 2021 à Mars 2022</h>
 									<ul>
 										<li>- Distributeur d'imprimés publicitaires, CDI</li>	
 										<li>- Adrexo Perpignan, Le Soler</li>
@@ -112,7 +119,7 @@
 										<li><br></li>
 									</ul>
 								</li>
-								<li><h>Avril à Juin 2020</h>
+								<li class="info"><h>Avril à Juin 2020</h>
 									<ul>
 										<li>- Stage</li>	
 										<li>- Panga, La Rochelle</li>
@@ -120,7 +127,7 @@
 										<li><br></li>
 									</ul>
 								</li>
-								<li><h>Septembre 2019 à Avril 2020</h>
+								<li class="info"><h>Septembre 2019 à Avril 2020</h>
 									<ul>
 										<li>- Projet Tutoré</li>	
 										<li>- IUT Informatique, La Rochelle</li>
@@ -131,7 +138,7 @@
 										<li><br></li>
 									</ul>
 								</li>
-								<li><h>Juin 2019</h>
+								<li class="info"><h>Juin 2019</h>
 									<ul>
 										<li>- Projet Tutoré</li>	
 										<li>- IUT Informatique, La Rochelle</li>
@@ -183,6 +190,14 @@
 						</div>
 						<div class="liste">
 							<ul><br>
+								<li><h> Mars 2022 - Mai 2022</h>
+									<ul>
+										<li>- POEI, ISTQB, Consultant Testing</li>	
+										<li>-  ib Cegos, Sogeti</li>
+										<li>- ISTQB, A4Q Selenium, TMap</li>
+										<li><br></li>
+									</ul>
+								</li>
 								<li><h> 2021 </h>
 									<ul>
 										<li>- Niveaux Licence Informatique</li>
@@ -229,6 +244,8 @@
 								<li><h class="titre"> Informatique: </h> </li>
 
 								<li><h> C++ </h><br> Bonne Maîtrise </li><br>
+								<li><h> Selenium </h><br> Bonne Maîtrise </li><br>
+								<li><h> RobotFramework </h><br> Bonne Maîtrise </li><br>
 								<li><h> Web </h><br> (HTML - CSS - JavaScript - PHP - Symfony)<br>Intermédiaire </li><br>
 								<li><h> SQL - Oracle </h> <br> Intermédiaire</li><br>
 								<li><h> GIT </h><br> Essentielle </li><br>
@@ -287,6 +304,14 @@
 						</div>
 						<div class="liste">
 							<ul><br>
+								<li><h> En ce moment </h>
+									<ul>
+										<li>- PPL </li>	
+										<li>- PH, Perpignan Hélicoptère </li>
+										<li>- Cessna 150 </li>
+										<li><br></li>
+									</ul>
+								</li>
 								<li><h> Juillet </h>
 									<ul>
 										<li>- Comité des fêtes </li>	
